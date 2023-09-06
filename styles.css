@@ -1,0 +1,136 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Dark-themed font */
+    background-color: #111; /* Dark background color */
+    color: #222; /* Dark text color */
+    width: 100%;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #333; /* Dark gray background */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff; /* White text */
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.brand-logo {
+    font-size: 2rem;
+    color: #ff6347; /* Tomato Red */
+}
+
+/* Styles for the search bar */
+#search-bar {
+    margin-top: 20px; /* Reduced margin-top */
+    border: 2px solid #fff; /* White border */
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff; /* White text */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #222; /* Dark background color */
+}
+
+#search-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #fff; /* White icon color */
+}
+
+#my-search {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+/* Styles for cards group */
+#cards-group {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #333; /* Dark gray background */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #ff6347; /* Tomato Red icon color */
+    transition: color 0.2s ease;
+}
+
+.icon:hover {
+    color: #d32f2f; /* Darker shade of red on hover */
+}
+
+/* Styles for hero details page */
+#hero-main {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #222; /* Dark background color */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#img {
+    width: 100%;
+    height: auto;
+}
+
+#hero-details {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.heading {
+    border-radius: 10px;
+    background-color: #ff6347; /* Tomato Red */
+    padding: 10px;
+    color: #fff; /* White text color */
+    font-size: 1.5rem;
+}
+
+/* Styles for favorite heroes page */
+#fv-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #111; /* Dark background color */
+}
